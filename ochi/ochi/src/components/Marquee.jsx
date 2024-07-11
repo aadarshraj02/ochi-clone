@@ -2,7 +2,7 @@ import React from 'react'
 
 function Marquee() {
   return (
-    <div>
+    <div className='w-full h-[50vh] bg-[#004D43]' >
       
     </div>
   )
