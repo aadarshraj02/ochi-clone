@@ -37,7 +37,7 @@ function LandingPage() {
           <div className="px-5 py-2 border-[2px] border-zinc-500 rounded-full font-light text-md uppercase">
             start the project
           </div>
-          <div className="w-10 h-10 rounded-full  border-[1px] border-zinc-500 flex items-center justify-center">
+          <div className="w-10 h-10 rounded-full  border-[1px] border-zinc-500 flex items-center justify-center hover:text-zinc-900 hover:bg-white hover:rotate-[45deg] transition-all duration-500 linear">
             <span className="rotate-[45deg]">
               <FaArrowUpLong />
             </span>
