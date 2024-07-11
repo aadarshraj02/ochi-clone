@@ -32,6 +32,7 @@ function LandingPage() {
           <div className="px-5 py-2 border-[2px] border-zinc-500 rounded-full font-light text-sm capitalize">
             start the project
           </div>
+          <div className="w-3 h-3 rounded-full"></div>
         </div>
       </div>
     </div>
