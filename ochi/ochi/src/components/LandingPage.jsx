@@ -10,6 +10,7 @@ function LandingPage() {
             </div>
             })}
         </div>
+        <div className="border-t-[1px] border-zinc-600 mt-28"></div>
     </div>
   )
 }
