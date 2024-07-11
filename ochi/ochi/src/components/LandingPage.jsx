@@ -14,6 +14,9 @@ function LandingPage() {
             {["For Public and Private companies","From the first pitch to IPO"].map((item,index)=>{
              return <p key={index} className='text-md font-light tracking-tighter leading-none text-white'>{item}</p>
         })}
+        <div className="start">
+            <div className='px-5 py-2 border-[2px] border-zinc-500 rounded-full font-light text-sm capitalize'>start the project</div>
+        </div>
         </div>
     </div>
   )
