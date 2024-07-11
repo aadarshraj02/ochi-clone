@@ -10,7 +10,11 @@ function LandingPage() {
             </div>
             })}
         </div>
-        <div className="border-t-[1px] border-zinc-600 mt-28"></div>
+        <div className="border-t-[1px] border-zinc-600 mt-28 flex justify-between items-center py-5 px-20">
+            {["For Public and Private companies","From the first pitch to IPO"].map((item,index)=>{
+             return <p key={index} className='text-md font-light tracking-tighter leading-none text-white'>{item}</p>
+        })}
+        </div>
     </div>
   )
 }
