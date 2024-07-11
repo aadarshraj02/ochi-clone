@@ -8,9 +8,13 @@ function LandingPage() {
         {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
           return (
             <div className="masker" key={index}>
-              <h1 className="uppercase text-8xl leading-none tracking-tighter font-medium">
-                {item}
-              </h1>
+              <div className="w-fit flex  items-center justify-center">
+                {index === 1 &&(<div className="w-[96px] h-[5vw] mr-[1vw] rounded-md bg-red-400 relative top-2 ">
+                <img src="https://tinypng.com/static/images/panda_with_cord.webp" className="h-full w-full object-cover bg-center" alt=""/></div>)}
+                <h1 className="uppercase text-8xl leading-none tracking-tighter font-medium">
+                  {item}
+                </h1>
+              </div>
             </div>
           );
         })}
@@ -34,8 +38,10 @@ function LandingPage() {
             start the project
           </div>
           <div className="w-10 h-10 rounded-full  border-[1px] border-zinc-500 flex items-center justify-center">
-            <span className="rotate-[45deg]"><FaArrowUpLong /></span>
-            </div>
+            <span className="rotate-[45deg]">
+              <FaArrowUpLong />
+            </span>
+          </div>
         </div>
       </div>
     </div>
