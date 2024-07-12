@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
+    <div className='w-full py-20 bg-[#cdea68] rounded-tl-2xl rounded-tr-2xl'>
       
     </div>
   )
