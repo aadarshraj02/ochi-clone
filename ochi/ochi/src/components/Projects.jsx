@@ -8,7 +8,10 @@ function Projects() {
       </div>
       <div className="px-20">
         <div className="cards w-full flex gap-10 mt-10">
-          <div className="card-container w-1/2  h-[80vh]">
+          <div className="card-container w-1/2  h-[80vh] relative">
+            <h1 className="absolute z-10 text-7xl tracking-tight left-full -translate-x-1/2 top-1/2 -translate-y-1/2">
+              FYDE
+            </h1>
             <div className="card w-full h-full">
               <img
                 className="w-full h-full object-cover rounded-xl"
@@ -17,7 +20,10 @@ function Projects() {
               />
             </div>
           </div>
-          <div className="card-container w-1/2  h-[80vh]">
+          <div className="card-container w-1/2  h-[80vh] relative">
+            <h1 className="absolute z-10 text-7xl tracking-tight right-full translate-x-1/2 top-1/2 -translate-y-1/2">
+              VISE
+            </h1>
             <div className="card w-full h-full rounded-xl">
               <img
                 className="w-full h-full object-cover rounded-xl"
