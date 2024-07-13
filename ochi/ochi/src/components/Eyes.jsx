@@ -3,7 +3,13 @@ import React, { useEffect } from "react";
 function Eyes() {
   useEffect(() => {
     window.addEventListener("mousemove", (e) => {
-      console.log(e);
+      let mouseX = e.clientX;
+      let mouseY = e.clientY;
+
+      let deltaX = mouseX - window.innerWidth / 2;
+      let deltaY = mouseY - window.innerHeight / 2;
+
+      var angle = Math.atan2(deltaY, deltaX) * (180 / Math.PI);
     });
   });
   return (
