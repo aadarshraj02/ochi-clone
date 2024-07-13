@@ -11,6 +11,11 @@ function Projects() {
           <div className="card-container w-1/2  h-[80vh] relative">
             <h1 className="absolute z-10 text-7xl tracking-tight left-full -translate-x-1/2 top-1/2 -translate-y-1/2">
               FYDE
+              {"FYDE".split("").map((item, index) => (
+                <span className="" key={index}>
+                  {item}
+                </span>
+              ))}
             </h1>
             <div className="card w-full h-full">
               <img
@@ -23,6 +28,11 @@ function Projects() {
           <div className="card-container w-1/2  h-[80vh] relative">
             <h1 className="absolute z-10 text-7xl tracking-tight right-full translate-x-1/2 top-1/2 -translate-y-1/2">
               VISE
+              {"VISE".split("").map((item, index) => (
+                <span className="" key={index}>
+                  {item}
+                </span>
+              ))}
             </h1>
             <div className="card w-full h-full rounded-xl">
               <img
