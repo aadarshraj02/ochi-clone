@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Eyes() {
+  useEffect(() => {
+    window.addEventListener("mousemove", (e) => {
+      console.log(e);
+    });
+  });
   return (
     <div className="eyes  w-full h-screen">
       <div className='w-full h-full bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg")] bg-cover bg-center relative'>
