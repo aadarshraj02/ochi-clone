@@ -8,11 +8,23 @@ function Projects() {
       </div>
       <div className="px-20">
         <div className="cards w-full flex gap-10 mt-10">
-          <div className="card-container w-1/2  h-[80vh] overflow-hidden">
-            <div className="card w-full h-full rounded-xl bg-green-600"></div>
+          <div className="card-container w-1/2  h-[80vh]">
+            <div className="card w-full h-full">
+              <img
+                className="w-full h-full object-cover rounded-xl"
+                src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png"
+                alt=""
+              />
+            </div>
           </div>
-          <div className="card-container w-1/2  h-[80vh]  overflow-hidden">
-            <div className="card w-full h-full rounded-xl bg-green-600"></div>
+          <div className="card-container w-1/2  h-[80vh]">
+            <div className="card w-full h-full rounded-xl">
+              <img
+                className="w-full h-full object-cover rounded-xl"
+                src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
