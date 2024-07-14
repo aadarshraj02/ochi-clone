@@ -45,6 +45,11 @@ function Footer() {
         <h1 className="text-[4vw] leading-none uppercase font-semibold ">
           PRESENTATIONS
         </h1>
+        <div className="details">
+          <a href="">Facebook</a>
+          <a href="">Instagram</a>
+          <a href="">Twitter</a>
+        </div>
       </div>
     </div>
   );
