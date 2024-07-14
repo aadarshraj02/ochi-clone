@@ -3,7 +3,11 @@ import { FaArrowUpLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
 function LandingPage() {
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
+    <div
+      data-scroll
+      data-scroll-speed="-.3"
+      className="w-full h-screen bg-zinc-900 pt-1"
+    >
       <div className="text-structure mt-40 px-20">
         {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
           return (
