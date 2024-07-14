@@ -15,7 +15,7 @@ function Cards() {
         </div>
       </div>
       <div className="card-container w-1/2 h-[50vh] flex gap-5">
-        <div className="card w-1/2 h-full rounded-xl bg-[#19413b] flex items-center justify-center relative">
+        <div className="card w-1/2 h-full rounded-xl bg-zinc-900 flex items-center justify-center relative">
           <img
             src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg"
             alt=""
@@ -24,13 +24,13 @@ function Cards() {
             RATING 5.0 ON CLUTCH
           </button>
         </div>
-        <div className="card w-1/2 h-full rounded-xl bg-[#1f3431] flex items-center justify-center relative">
+        <div className="card w-1/2 h-full rounded-xl bg-zinc-900 flex items-center justify-center relative">
           <img
             src="https://ochi.design/wp-content/uploads/2022/04/logo003.png"
             alt=""
           />
           <button className="absolute left-5 bottom-5 px-4 py-1 border-[1px] rounded-full">
-           BUSINESS BOOTCAMP 
+            BUSINESS BOOTCAMP
           </button>
         </div>
       </div>
