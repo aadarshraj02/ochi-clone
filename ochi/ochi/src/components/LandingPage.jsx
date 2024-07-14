@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
-
+import { motion } from "framer-motion";
 function LandingPage() {
   return (
     <div className="w-full h-screen bg-zinc-900 pt-1">
@@ -9,8 +9,15 @@ function LandingPage() {
           return (
             <div className="masker" key={index}>
               <div className="w-fit flex  items-center justify-center">
-                {index === 1 &&(<div className="w-[96px] h-[5vw] mr-[1vw] rounded-md bg-red-400 relative top-2 ">
-                <img src="https://tinypng.com/static/images/panda_with_cord.webp" className="h-full w-full object-cover bg-center" alt=""/></div>)}
+                {index === 1 && (
+                  <div className="w-[96px] h-[5vw] mr-[1vw] rounded-md bg-red-400 relative top-2 ">
+                    <img
+                      src="https://tinypng.com/static/images/panda_with_cord.webp"
+                      className="h-full w-full object-cover bg-center"
+                      alt=""
+                    />
+                  </div>
+                )}
                 <h1 className="uppercase text-8xl leading-none tracking-tighter font-medium">
                   {item}
                 </h1>
