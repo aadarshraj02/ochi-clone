@@ -10,13 +10,18 @@ function LandingPage() {
             <div className="masker" key={index}>
               <div className="w-fit flex  items-center justify-center">
                 {index === 1 && (
-                  <div className="w-[96px] h-[5vw] mr-[1vw] rounded-md bg-red-400 relative top-2 ">
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: "96px" }}
+                    transition={{ ease: [0.45, 0, 0.55, 1], duration: 1 }}
+                    className="w-[96px] h-[5vw] mr-[1vw] rounded-md bg-red-400 relative top-2 "
+                  >
                     <img
                       src="https://tinypng.com/static/images/panda_with_cord.webp"
                       className="h-full w-full object-cover bg-center"
                       alt=""
                     />
-                  </div>
+                  </motion.div>
                 )}
                 <h1 className="uppercase text-8xl leading-none tracking-tighter font-medium">
                   {item}
