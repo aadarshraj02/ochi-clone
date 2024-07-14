@@ -26,7 +26,7 @@ function Cards() {
         </div>
         <div className="card w-1/2 h-full rounded-xl bg-[#004d43] flex items-center justify-center relative">
           <img
-            src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg"
+            src="https://ochi.design/wp-content/uploads/2022/04/logo003.png"
             alt=""
           />
           <button className="absolute left-10 bottom-10 px-6 py-1 border-[1px] rounded-full">
