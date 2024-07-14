@@ -41,7 +41,11 @@ function Footer() {
           ></path>
         </svg>
       </div>
-      <div className="w-1/2"></div>
+      <div className="w-1/2">
+        <h1 className="text-[10vw] leading-none uppercase font-semibold ">
+          PRESENTATIONS
+        </h1>
+      </div>
     </div>
   );
 }
