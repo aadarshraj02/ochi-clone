@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 function Projects() {
@@ -9,12 +10,15 @@ function Projects() {
       <div className="px-20">
         <div className="cards w-full flex gap-10 mt-10">
           <div className="card-container w-1/2  h-[80vh] relative">
-            <h1 className="absolute z-10 text-7xl tracking-tight left-full -translate-x-1/2 top-1/2 -translate-y-1/2">
-              FYDE
+            <h1 className="absolute flex z-10 text-7xl tracking-tight left-full -translate-x-1/2 top-1/2 -translate-y-1/2 overflow-hidden">
               {"FYDE".split("").map((item, index) => (
-                <span className="" key={index}>
+                <motion.span
+                  initial={{ y: "100%" }}
+                  className="inline-block"
+                  key={index}
+                >
                   {item}
-                </span>
+                </motion.span>
               ))}
             </h1>
             <div className="card w-full h-full">
@@ -27,7 +31,6 @@ function Projects() {
           </div>
           <div className="card-container w-1/2  h-[80vh] relative">
             <h1 className="absolute z-10 text-7xl tracking-tight right-full translate-x-1/2 top-1/2 -translate-y-1/2">
-              VISE
               {"VISE".split("").map((item, index) => (
                 <span className="" key={index}>
                   {item}
