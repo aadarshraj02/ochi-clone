@@ -20,7 +20,7 @@ function Cards() {
             src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg"
             alt=""
           />
-          <button className="absolute left-10 bottom-10 px-6 py-1 border-[1px] rounded-full">
+          <button className="absolute left-5 bottom-5 px-4 py-1 border-[1px] rounded-full">
             RATING 5.0 ON CLUTCH
           </button>
         </div>
@@ -29,8 +29,8 @@ function Cards() {
             src="https://ochi.design/wp-content/uploads/2022/04/logo003.png"
             alt=""
           />
-          <button className="absolute left-10 bottom-10 px-6 py-1 border-[1px] rounded-full">
-           BUSINESS BOOTCAMP ALUMNI
+          <button className="absolute left-5 bottom-5 px-4 py-1 border-[1px] rounded-full">
+           BUSINESS BOOTCAMP 
           </button>
         </div>
       </div>
