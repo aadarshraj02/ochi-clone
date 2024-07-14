@@ -46,9 +46,9 @@ function Footer() {
           PRESENTATIONS
         </h1>
         <div className="details">
-          <a href="">Facebook</a>
-          <a href="">Instagram</a>
-          <a href="">Twitter</a>
+          <a className="block mt-5 " href="">Facebook</a>
+          <a className="block mt-5 " href="">Instagram</a>
+          <a className="block mt-5 " href="">Twitter</a>
         </div>
       </div>
     </div>
