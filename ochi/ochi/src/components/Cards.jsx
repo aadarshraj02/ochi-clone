@@ -24,7 +24,7 @@ function Cards() {
             RATING 5.0 ON CLUTCH
           </button>
         </div>
-        <div className="card w-1/2 h-full rounded-xl bg-[#004d43] flex items-center justify-center relative">
+        <div className="card w-1/2 h-full rounded-xl bg-[#1f3431] flex items-center justify-center relative">
           <img
             src="https://ochi.design/wp-content/uploads/2022/04/logo003.png"
             alt=""
