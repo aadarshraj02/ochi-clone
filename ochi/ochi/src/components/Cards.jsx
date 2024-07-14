@@ -30,7 +30,7 @@ function Cards() {
             alt=""
           />
           <button className="absolute left-10 bottom-10 px-6 py-1 border-[1px] rounded-full">
-            &copy;2019-2022
+           BUSINESS BOOTCAMP ALUMNI
           </button>
         </div>
       </div>
