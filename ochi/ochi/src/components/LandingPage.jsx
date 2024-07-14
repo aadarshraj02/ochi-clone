@@ -5,7 +5,7 @@ function LandingPage() {
   return (
     <div
       data-scroll
-      data-scroll-speed="-.3"
+      data-scroll-speed="-.1"
       className="w-full h-screen bg-zinc-900 pt-1"
     >
       <div className="text-structure mt-40 px-20">
