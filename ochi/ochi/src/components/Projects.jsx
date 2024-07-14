@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useState } from "react";
 
 function Projects() {
+  const [isHovering, setHovering] = useState(false);
+
   return (
     <div className="w-full py-10">
       <div className="w-full px-20  border-b-[1px] border-zinc-500 pb-10">
@@ -9,11 +11,17 @@ function Projects() {
       </div>
       <div className="px-20">
         <div className="cards w-full flex gap-10 mt-10">
-          <div className="card-container w-1/2  h-[80vh] relative">
+          <div
+            onMouseEnter={() => setHovering(true)}
+            onMouseLeave={() => setHovering(false)}
+            className="card-container w-1/2  h-[80vh] relative"
+          >
             <h1 className="absolute flex z-10 text-7xl tracking-tight left-full -translate-x-1/2 top-1/2 -translate-y-1/2 overflow-hidden">
               {"FYDE".split("").map((item, index) => (
                 <motion.span
                   initial={{ y: "100%" }}
+                  animate={{ y: isHovering ? "0" : "100%" }}
+                  transition={{ ease: [0.45, 0, 0.55, 1], duration: 0.5 }}
                   className="inline-block"
                   key={index}
                 >
